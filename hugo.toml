@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://open-cube-access.github.io/docs/'
 languageCode = 'en-us'
 title = 'Open Cube Access'
 
@@ -78,5 +78,3 @@ disqusShortname = "my-site"
   [caches.images]
     dir = ':cacheDir/images'
 
-[markup.goldmark.renderer]
-  unsafe = true

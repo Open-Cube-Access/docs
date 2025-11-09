@@ -73,6 +73,10 @@ disqusShortname = "my-site"
   # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
   BookServiceWorker = true
 
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[markup.goldmark.renderer]
+  unsafe = true
